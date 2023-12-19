@@ -14,7 +14,7 @@
         .container{
             background-color: #E9E9E9;
             margin: auto;
-            margin-top: 500px;
+            
 
             width: 600px;
 
@@ -40,7 +40,7 @@
         }
         .header-subtitle{
             color: #009E9E;
-            font-size: 20px;
+            font-size: 19.31px;
             font-weight: 500;
             margin-bottom: 15px;
         }
@@ -91,8 +91,23 @@
             background-color: #E9E9E9;
         }
         .image-group{
-            text-align: center;
-
+            text-align: center;  
+            filter: invert(1);
+        }
+        @media screen and (max-width: 620px){
+            html{
+                font-size: 14px;
+            }
+            .flex-container{
+                flex-direction: column;
+            }
+            .col-1, .col-2{
+                width: 100%;
+                box-sizing: border-box;
+            }
+            .container{
+                width: 95%;
+            }
         }
     </style>
 </head>
@@ -103,11 +118,11 @@
                 Entre para a nossa comunidade!
             </div>
             <div class="header-subtitle">
-                Faca a sua assinatura agora e ganhe 30% de desconto!
+                Faça a sua assinatura agora e ganhe 30% de desconto!
             </div>
             <div>
-                Faca parte da nossa comunidade de desenvolvedores.<br>
-                Tenha suporte da nossa equipe e cresca mais rapido na sua carreira.
+                Faça parte da nossa comunidade de desenvolvedores.<br>
+                Tenha suporte da nossa equipe e cresca mais rápido na sua carreira.
             </div>
         </div>
         <div class="flex-container">
@@ -117,7 +132,7 @@
                 </div>
                 <div>
                     <span class="price">R$ 99,99</span>
-                    <span class="month">por mes.</span> 
+                    <span class="month">por mês.</span> 
                 </div>
                 <div>
                     Cancele a qualquer momento.
@@ -132,16 +147,16 @@
                 </div>
                   
                 <div>
-                    Voce tera acesso:<br>
+                    Você terá acesso:<br>
                 </div>
                 <div>
                     <ul>
                         <li>Projetos exclusivos</li>
                         <li>Tutorias</li>
                         <li>Lives semanais</li>
-                        <li>Material didatico especializado</li>
-                        <li> Forum</li>
-                        <li>Oferta de empregos</li>
+                        <li>Material didático especializado</li>
+                        <li>Fórum</li>
+                        <li>Oferta de empregos</li> 
                     </ul>
                 </div>
             </div>
