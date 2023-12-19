@@ -2,6 +2,23 @@
             background-color: #F5F5F5;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
+        input{
+            width: 95%;
+            height: 22px;
+            padding: 15px;
+            font-size: 16.3px;
+            border-radius: 5px;
+            border: 0;
+            margin: 10px;
+        }
+        a{
+            color: #E9E9E9;
+            font-size: 0.8rem;
+        }
+        input:focus{
+            outline:none;
+            box-shadow: 0 0 10px #009E9E;
+        }
 
         .container{
             background-color: #E9E9E9;
@@ -16,7 +33,7 @@
         }
 
         .header{
-            padding: 40px;
+            padding: 15px;
         }
         .flex-container{
             display: flex;
@@ -86,6 +103,15 @@
             text-align: center;  
             filter: invert(1);
         }
+        .lin{
+            background-color: #006A6A;
+            padding: 16.3px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: space-around;
+            
+        }
         @media screen and (max-width: 620px){
             html{
                 font-size: 14px;
@@ -99,6 +125,9 @@
             }
             .container{
                 width: 95%;
+            }
+            .header{
+                padding: 15px;
             }
         }
     
